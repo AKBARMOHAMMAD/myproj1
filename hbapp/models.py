@@ -30,6 +30,7 @@ class payment(models.Model):
 
 
 
+
 '''class display(models.Model):
     Name=models.CharField(max_length=20)
     Contact_no = models.IntegerField()

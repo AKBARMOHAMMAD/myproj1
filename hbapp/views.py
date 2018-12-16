@@ -112,7 +112,8 @@ def paymentpage(request):
     card_type=request.POST.get('card_type')
     p=payment(Fullname=name,Room_type=room_type,Check_in=check_in,Check_out=check_out,Contact_no=contact_no,Address=address,Total_amount=total_amount,Card_no=card_no,Card_type=card_type)
     p.save()
-    return render(request,'index2.html',{"type":'payment',"message":'Your Payment is Success'})
+    print(p)
+    return render(request,'index2.html',{"type":'Payment',"message":'Your Payment is Success'})
 
 
 def display(request):

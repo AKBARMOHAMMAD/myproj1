@@ -41,7 +41,9 @@ urlpatterns = [
     path('openBookingPage/',views.openBookingPage),
     path('openPayment/',views.openPayment),
     path('paymentpage/',views.paymentpage),
+    path('opendisplay/',views.opendisplay),
     path('display/',views.display),
+
 
     path('openCancelPage/',views.openCancelPage),
     path('CancelPage/',views.CancelPage),
